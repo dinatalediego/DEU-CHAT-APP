@@ -8,7 +8,7 @@ document.getElementById('translateButton').addEventListener('click', async () =>
     }
 
     try {
-        const response = await fetch('http://127.0.0.1:5000/api/translate', {
+        const response = await fetch('https://deu-chat-app.vercel.app/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

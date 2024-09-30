@@ -8,7 +8,7 @@ document.getElementById('translateButton').addEventListener('click', async () =>
     }
 
     try {
-        const response = await fetch('https://deu-chat-be-app.vercel.app/translate', {
+        const response = await fetch('https://flask-app-ten-omega.vercel.app/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
